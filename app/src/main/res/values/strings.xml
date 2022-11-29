@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Điểm danh</string>
+    <string name="take_barcode_picture">Take Barcode Picture</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">OPEN CAMERA</string>
+    <string name="send_email">SEND EMAIL</string>
+
+    <string name="label_diemdanh">ĐIỂM DANH</string>
+    <string name="label_thongke">THỐNG KÊ</string>
+    <string name="label_danhsach">DANH SÁCH</string>
+
+    <string name="label_co">Có</string>
+    <string name="label_vang">Vắng</string>
+</resources>
