@@ -22,4 +22,7 @@ interface LearnerSessionDao {
 
     @Insert(entity = LearnerSession::class)
     fun insert(origin: LearnerSession)
+
+    @Query("DELETE FROM learnersessions")
+    fun empty()
 }
