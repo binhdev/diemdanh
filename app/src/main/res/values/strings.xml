@@ -8,6 +8,7 @@
     <string name="label_diemdanh">ĐIỂM DANH</string>
     <string name="label_thongke">THỐNG KÊ</string>
     <string name="label_danhsach">DANH SÁCH</string>
+    <string name="label_reset">RESET</string>
 
     <string name="label_co">Có</string>
     <string name="label_vang">Vắng</string>

@@ -13,7 +13,9 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_margin="10dp"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
         <TextView
             android:text="@string/label_diemdanh"
             android:layout_width="match_parent"
@@ -29,7 +31,9 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_margin="10dp"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
         <TextView
             android:text="@string/label_thongke"
             android:layout_width="match_parent"
@@ -45,9 +49,28 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_margin="10dp"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
         <TextView
             android:text="@string/label_danhsach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv.reset"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+        <TextView
+            android:text="@string/label_reset"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textStyle="bold"

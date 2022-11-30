@@ -33,12 +33,12 @@ class SessionAdapter(
             var intent : Intent? = null
             if(action == Constants.ACTION_DIEMDANH){
                 intent = Intent(context, MainActivity::class.java).apply {
-                    putExtra(Constants.SESSION_ID, sessionList[0].Id)
+                    putExtra(Constants.SESSION_ID, sessionList[position].Id)
                 }
             }
             if(action == Constants.ACTION_THONGKE){
                 intent = Intent(context, StatisticActivity::class.java).apply {
-                    putExtra(Constants.SESSION_ID, sessionList[0].Id)
+                    putExtra(Constants.SESSION_ID, sessionList[position].Id)
                 }
             }
 
